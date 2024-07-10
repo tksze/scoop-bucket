@@ -5,7 +5,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/nuthx/subtitle-renamer/releases/download/1.7/SubtitleRenamer_windows.zip",
-            "hash": "aaa"
+            "hash": "36f34a3faf48cdeb915cba80ee44a7d96a8a3bb183c935b3d1e33ef3e26d0f7b"
         }
     },
     "shortcuts": [
