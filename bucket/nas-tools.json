@@ -1,0 +1,32 @@
+{
+    "version": "3.4.0",
+    "homepage": "https://github.com/hsuyelin/nas-tools",
+    "license": "AGPL",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/hsuyelin/nas-tools/releases/download/v3.4.0/nastool_win_v3.4.0.exe",
+            "hash": "814f1e949972ad953c9e0ce015036740e72c306b2678446e5eca075358959409"
+        }
+    },
+    "shortcuts": [
+        [
+            "nastool_win_v3.4.0.exe",
+            "Nastools"
+        ]
+    ],
+    "persist": "config",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/hsuyelin/nas-tools/releases/download/v$version/nastool_win_v$version.exe"
+            }
+        },
+        "shortcuts": [
+            [
+                "nastool_win_v$version.exe",
+                "Nastools"
+            ]
+        ]
+    }
+}
